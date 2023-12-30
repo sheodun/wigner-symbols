@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "wigner-symbols"
+version = "0.1.0"
+description = "A simple package for computing wigner 3j and 6j symbols"
+authors = ["sheodun <90875475+sheodun@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "wigner_symbols"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.12.1"
+flake8 = "^6.1.0"
+pytest = "^7.4.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
