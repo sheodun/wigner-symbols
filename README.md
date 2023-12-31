@@ -1,5 +1,19 @@
 # Wigner-Symbols
-A simple lightweight module for calculating Wigner 3j and 6j symbols.
+A simple zero-dependenct module for calculating Wigner 3j and 6j symbols.
+
+## Installation
+
+### Install package from pip
+
+This package has not yet been published on PyPI.
+
+### Local installation
+
+Navigate to the directory and run
+
+```bash
+pip install .
+```
 
 ## Usage
 
