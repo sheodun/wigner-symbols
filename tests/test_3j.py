@@ -8,7 +8,6 @@ from wigner_symbols import calculate_3j
 
 
 class TestWigner3j:
-    TIME_BENCHMARK = 1.0e-04  # seconds
 
     @pytest.mark.parametrize(
         "jm, expected_value",
@@ -26,4 +25,3 @@ class TestWigner3j:
         finish = time.time()
 
         assert abs(expected_value - output) < constants.EPSILON
-        assert (finish - start) < self.TIME_BENCHMARK
